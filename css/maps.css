@@ -5,13 +5,14 @@ body {
 #map_container{
   position: relative;
 }
+
 #map{
   height: 100vh;
-width: 100vw;
-    overflow: hidden;
-    padding-bottom: 0;
-    padding-top: 30px;
-    position: relative;
+  width: 100vw;
+  overflow: hidden;
+  padding-bottom: 0;
+  padding-top: 30px;
+  position: relative;
 }
 
 .kd-tabbed-vert.header-links .kd-tabbutton a {
