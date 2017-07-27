@@ -1,0 +1,43 @@
+{
+  "locations": [{
+       "name":"Lal Bagh",
+       "lat": 12.9507,
+       "lng": 77.5848
+     },
+     {
+       "name":"Cubbon park",
+       "lat": 12.9763,
+       "lng": 77.5929
+     },
+     {
+       "name": "Lumbini gardens",
+       "lat": 13.0434,
+       "lng": 77.6097
+     },
+     {
+       "name": "Christ University",
+       "lat": 12.9346,
+       "lng": 77.6061
+     },
+     {
+       "name":"Iskon",
+       "lat": 13.0096,
+       "lng": 77.5511
+     },
+     {
+     "name": "Palace",
+     "lat": 12.9987,
+     "lng": 77.5920
+  },
+  {
+    "name": "Bagmane Tech Park",
+    "lat": 12.9795,
+    "lng": 77.6568
+  },
+  {
+    "name": "Bangalore Fort",
+    "lat": 12.9629,
+    "lng": 77.5761
+  }
+]
+}

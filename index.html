@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Neighbourhood Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/maps.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="javascript" href="js/bootstrap.min.js">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div class="row" id="header">
+        <div class="col-md-2 col-xs-2">
+          <img src="img/logo.jpg" alt="Vidhan soudha" class="logo">
+        </div>
+        <div class="col-md-10 col-xs-10" id="title">
+          <h1>Bangalore Neighbourhood</h1>
+        </div>
+      </div>
+
+      <div class = "row">
+        <div id="map-container">
+        <div id ="map" class="col-md-12 col-xs-12"></div>
+      </div>
+            <div id="side-nav" class="col-md-4 col-xs-3">
+            <div class="search-box">
+            <input size="30"placeholder="Search.."data-bind="value: filteredLocation, valueUpdate: 'afterkeydown'" /></input>
+          </div>
+            			<ul data-bind="foreach: filteredLocations" style="list-style-type:none">
+            				<li data-bind="text: name, click: clicked" class="side-nav-list"></li>
+            			</ul>
+                </div>
+          </div>
+        </div>
+
+    <script type="text/javascript" src="js/engine.js"></script>
+    <script type='text/javascript' src='js/knockout-3.4.2.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIz_KzbDBe91253_J57XF577fNzRP9YKM&callback=startApp">
+    </script>
+  </body>
+</html>
